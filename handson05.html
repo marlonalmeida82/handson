@@ -7,21 +7,22 @@
     <title>handson05</title>
 </head>
 <body>
-    número<input type ="text" id="número">
+    número <input type ="text" id="número">
     <button onclick="validaNúmero()">verificar</button>
+
     <script>
-        /*ousado:positivo,negativo e nulo*/
+        /*ousado: positivo, negativo e nulo*/
         function validaNúmero(){
-            var número = document.getElementbyId("número").value;
+            var número = document.getElementById("número").value;
             if(número>0){
                 alert("o número é positivo!")
-            }else inf(número<0){
+            }else if(número <0){
                 alert("o númeroe é nagativo!")
             }else{
                 alert("o número é nulo")
 
             }
-            }
+        }
     </script>
     
 </body>
